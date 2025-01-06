@@ -1,0 +1,9 @@
+Algemeen:
+* Bestaande wormy spel (https://inventwithpython.com/pygame/chapter6.html ) voor 1 speler ombouwen naar spel dat over lokaal netwerk kan gespeeld worden, tussen 8 spelers. Hiermee kan dan tornooi gespeeld worden.
+* Er wordt een host voorzien, in Python. Deze start het spel op, en begint met luisteren op netwerk naar max. 8 spelers die willen meespelen. De host kan ook aan projectiescherm hangen, opdat hier het spel kan gevolgd worden door publiek.
+* De clients (ook Python) sturen de keystrokes door naar de host, die dan telkens het speelveld berekent en toont. Alle coördinaten van de slangen en appel worden ook teruggestuurd naar de verschillende clients, zodat de clients ook lokaal op hun laptop het spel kunnen ‘zien’ en spelen.
+* Het spelprincipe is volgens last-man-standing. Wanneer kop van slang muur, zichzelf of andere slang raakt ligt ze uit het spel (verdwijnt echt uit het spel). De andere slangen spelen verder.
+* Als alle slangen dood zijn wordt nog de eindscore getoond.
+
+Belangrijke bijkomende functionaliteit:
+* Spel (client) moet makkelijk verdeeld kunnen worden onder de spelers. Te onderzoeken hoe. Windows executable?
